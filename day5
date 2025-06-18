@@ -5,9 +5,15 @@ for fruit in fruits:
 print(fruits)'''
 
 
-student_score=[140,340,543,66,67,76,54,55,33,55,69,99]
+'''student_score=[140,340,543,66,67,76,54,55,33,55,69,99]
 max_score=0
 for score in student_score:
     if score > max_score:
         max_score = score
-print(max_score)
+print(max_score)'''
+
+fruits=["apple","gova","jam"]
+for fruit in fruits:
+    print(fruit)
+    print(fruit + "pie")
+print(fruits)
